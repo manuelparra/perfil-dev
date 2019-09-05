@@ -1,0 +1,22 @@
+{
+  "name": "perfil-frontend",
+  "version": "1.0.0",
+  "description": "Proyecto para la pagina web perfil-forntend",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/sidevca/perfil-frontend.git"
+  },
+  "keywords": [
+    "Pagina",
+    "Web",
+    "Frontend",
+    "Perfil"
+  ],
+  "author": "Manuel Parra",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/sidevca/perfil-frontend#readme"
+}
