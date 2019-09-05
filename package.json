@@ -4,6 +4,7 @@
   "description": "Proyecto para la pagina web perfil-forntend",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,13 @@
   ],
   "author": "Manuel Parra",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/sidevca/perfil-frontend#readme"
+  "homepage": "https://bitbucket.org/sidevca/perfil-frontend#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
 }
