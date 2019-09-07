@@ -1,7 +1,7 @@
 {
   "name": "perfil-frontend",
   "version": "1.0.0",
-  "description": "Proyecto para la pagina web perfil-forntend",
+  "description": "Proyecto para la pagina web perfil-dev",
   "main": "index.html",
   "scripts": {
     "dev": "lite-server",
@@ -9,17 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/sidevca/perfil-frontend.git"
+    "url": "git+ssh://git@bitbucket.org:manuelparra/perfil-dev.git"
   },
   "keywords": [
     "Pagina",
     "Web",
     "Frontend",
-    "Perfil"
+    "Perfil",
+    "Developer"
   ],
   "author": "Manuel Parra",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/sidevca/perfil-frontend#readme",
+  "homepage": "https://bitbucket.org/manuelparra/perfil-dev#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
   },
