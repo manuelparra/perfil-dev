@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="author" content="Manuel Parra">
+        <meta name="description" content="https://manuelparra.dev website"
         <meta name="keywords" content="Frontend, Developer, Freelancer, Manuel Parra">
         <link rel="icon" type="image/ico" href="assets/img/mp.ico">
         <title>Manuel Parra | Freelancer</title>
@@ -13,43 +14,67 @@
         <link rel="stylesheet" href="assets/css/main.css">
     </head>
     <body class="load">
-        <!-- header y menu -->
-        <header id="header">
-            <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
-                <a class="navbar-brand"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav">
-                        <li class="navbar-item d-flex justify-content-end">
-                            <a class="navbar-link" id="banner_scroll" href="#banner">Quien Soy</a>
-                        </li>
-                        <li class="navbar-item d-flex justify-content-end">
-                            <a class="navbar-link" id="skills_scroll" href="#skills">Habilidades</a>
-                        </li>
-                        <li class="navbar-item d-flex justify-content-end">
-                            <a class="navbar-link" id="customers_scroll" href="#customers">Clientes Satisfechos</a>
-                        </li>
-                        <li class="navbar-item d-flex justify-content-end">
-                            <a class="navbar-link" id="contact_scroll" href="#contatc">Contacto</a>
-                        </li>
-                        <li class="navbar-item d-flex justify-content-end">
-                            <a class="navbar-link" id="footer_scrool" href="#footer">Redes Sociales</a>
-                        </li>
-                        <li class="navbar-item d-flex justify-content-end">
-                            <a class="navbar-link" rel="noopener noreferrer" href="https://github.com/manuelparra" target="_blank">GitHub</a>
-                        </li>
-                        <li class="navbar-item d-flex justify-content-end">
-                            <a class="navbar-link" rel="noopener noreferrer" href="https://bitbucket.org/manuelparra/" target="_blank">Bitbucket</a>
-                        </li>
-                    </ul>
+        <div id="page-wrapper">
+            <!-- header y menu -->
+            <header id="header">
+                <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+                    <a class="navbar-brand"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav justify-content-end">
+                            <li class="navbar-item d-flex justify-content-end">
+                                <a class="navbar-link" id="banner_scroll" href="#banner">Quien Soy</a>
+                            </li>
+                            <li class="navbar-item d-flex justify-content-end">
+                                <a class="navbar-link" id="skills_scroll" href="#skills">Habilidades</a>
+                            </li>
+                            <li class="navbar-item d-flex justify-content-end">
+                                <a class="navbar-link" id="customers_scroll" href="#customers">Clientes Satisfechos</a>
+                            </li>
+                            <li class="navbar-item d-flex justify-content-end">
+                                <a class="navbar-link" id="contact_scroll" href="#contatc">Contacto</a>
+                            </li>
+                            <li class="navbar-item d-flex justify-content-end">
+                                <a class="navbar-link" id="footer_scrool" href="#footer">Redes Sociales</a>
+                            </li>
+                            <li class="navbar-item d-flex justify-content-end">
+                                <a class="navbar-link" rel="noopener noreferrer" href="https://github.com/manuelparra" target="_blank">GitHub</a>
+                            </li>
+                            <li class="navbar-item d-flex justify-content-end">
+                                <a class="navbar-link" rel="noopener noreferrer" href="https://bitbucket.org/manuelparra" target="_blank">Bitbucket</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <section id="banner">
+                <div class="jumbotron text-center">
+                    <div class="container banner-container">
+                        <div class="d-flex flex-wrap flex-column justify-content-center banner-content">
+                            <div class="d-flex flex-row flex-wrap justify-content-center">
+                                <div class="card-text">
+                                    <header>
+                                        <h1>Manuel Parra</h1>
+                                        <p>FrontEnd Developer<br/>Freelancer</p>
+                                    </header>
+                                </div>
+                                <div class="card-image">
+                                    <span class="image rounded-circle"><img src="assets/img/me.jpg"></span>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row flex-wrap justify-content-center container-btn-contactame">
+                                <!--<a class="btn btn-primary btn-md btn-contactame" href="#" role="button">Conctactame</a>
+                                <a id="customer_scroll" class="goto-next" href="#customer"></a>-->
+                                <span class="call-to-action"><a id="contact_scroll" class="button-action" href="#contact">Contactame</a></span>
+                                <a id="customer_scroll" class="goto-next" href="#customer">Siguiente</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </nav>
-        </header>
-        <div class="jumbotron text-center">
-            
-        </div>
+            </section>
+        <div>
         <!-- javascript opcional -->
         <!-- primero jquery, luego popper.js y por ultimo bootstrap -->
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
