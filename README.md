@@ -1,7 +1,7 @@
 # Proyecto Web Personal Frontend
 
 ## Resumen
-Este respositorio contiene una onepage para mi perfil como desarrollador frontend, esta desarrollada con HTML5, CSS3, JavaScript, JQuery y utiliza el framework bootstrap 4
+Este respositorio contiene una onepage para mi perfil como desarrollador frontend, esta desarrollada con HTML5, CSS3, JavaScript, JQuery y utiliza el framework bootstrap 4, la pagina es responsive.
 
 ## Instrucciones
 Descargue el respositorio y ejecute el comando npm install para descargar las dependencias utilizadas.
