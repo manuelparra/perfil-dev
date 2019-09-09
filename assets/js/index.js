@@ -22,14 +22,14 @@ function loadfunctions() {
             }
     });
 
-    $("#banner > a.goto-next").click(function(e) {
+    $("a.btn-contactame").click(function(e) {
             // Prevent a page reload when a link is pressed
             e.preventDefault();
             // Call the scroll function
             goToByScroll($(this).attr("id"));
     });
 
-    $("#banner > a.btn-contactame").click(function(e) {
+    $("a.goto-next").click(function(e) {
             // Prevent a page reload when a link is pressed
             e.preventDefault();
             // Call the scroll function
