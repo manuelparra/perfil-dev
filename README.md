@@ -10,5 +10,5 @@ Descargue el respositorio y ejecute el comando npm install para descargar las de
 Esta proyecto esta bajo la licencia MIT, la cual esta conteniada en el archivo LICENSE en el directorio raíz del proyecto
 
 # Información de contacto
-Para ponerse en contacto conmigo puede escribirme al siguiente correo [manuelparra@live.com.ar] (mailto:manuelparra@live.com.ar)
+Para ponerse en contacto conmigo puede escribirme al siguiente correo [manuelparra@live.com.ar](mailto:manuelparra@live.com.ar)
 
