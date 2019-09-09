@@ -154,5 +154,23 @@
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-app.js"></script>
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#config-web-app -->
+        <script>
+            // Your web app's Firebase configuration
+            var firebaseConfig = {
+                apiKey: "AIzaSyAHsbO5r913QYUaanO39cd9Qi0HSw6UUlw",
+                authDomain: "mp-developer.firebaseapp.com",
+                databaseURL: "https://mp-developer.firebaseio.com",
+                projectId: "mp-developer",
+                storageBucket: "",
+                messagingSenderId: "565063536134",
+                appId: "1:565063536134:web:905c876a0f5e9fb7cc7d87"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+        </script>
     </body>
 </html>
