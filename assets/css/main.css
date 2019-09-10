@@ -620,17 +620,17 @@ h3 {
 }
 
 .card-customer {
-    flex: 1 150px;
+    flex: 1 200px;
     padding: 15px 5px 5px 5px;
 }
 
 .card-customer p {
     font-size: 0.85em;
-    height: 115px;
+    height: 90px;
 }
 
 .card-customer .btn {
-    width: 165px;
+    width: 145px;
     align-self: center;
 }
 
@@ -775,16 +775,24 @@ address > p {
     margin: 0;
 }
 
-@media (min-height: 645px) {
+@media (min-height: 670px) {
+    #banner {
+        min-height: 670px;
+    }
+
+    .banner-container {
+        min-height: 670px;
+    }
+
     .btn-contactame {
-        bottom: 4em;
+        bottom: 5em;
     }
 
     .goto-next {
         border: 0;
         bottom: 0;
         display: block;
-        height: 2.5em;
+        height: 3em;
         left: 50%;
         margin: 0 0 0 -5em;
         overflow: hidden;
@@ -888,11 +896,11 @@ address > p {
 
 @media (min-width: 992px) {
     #banner {
-        min-height: 645px;
+        min-height: 670px;
     }
 
     .banner-container {
-        min-height: 645px;
+        min-height: 670px;
     }
 
     .card-text {
