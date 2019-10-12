@@ -131,6 +131,15 @@ module.exports = function(grunt) {
           src: 'arrow.svg',
           dest: 'public/assets/img'
         }]
+      },
+      ico: {
+        files: [{
+          expand: true,
+          dot: true,
+          cwd: 'src/assets/img',
+          src: 'favicon.ico',
+          dest: 'public/assets/img'
+        }]
       }
     },
     usemin: {
