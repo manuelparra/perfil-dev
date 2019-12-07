@@ -119,7 +119,8 @@ module.exports = function(grunt) {
           expand: true,
           dot: true,
           cwd: './',
-          src: ['README.md', 'LICENSE'],
+          //src: ['README.md', 'LICENSE'],
+          src: ['LICENSE'],
           dest: 'public/'
         }]
       },
