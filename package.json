@@ -1,7 +1,7 @@
 {
   "name": "perfil-frontend",
-  "version": "1.0.0",
-  "description": "Proyecto para la pagina web perfil-dev",
+  "version": "1.0.1",
+  "description": "Proyecto pagina web personal de Manuel Parra",
   "main": "index.html",
   "scripts": {
     "dev": "lite-server",
@@ -31,19 +31,19 @@
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-htmlmin": "^3.1.0",
-    "grunt-contrib-imagemin": "^3.1.0",
+    "grunt-contrib-imagemin": "^4.0.0",
     "grunt-contrib-less": "^2.0.0",
     "grunt-contrib-uglify": "^4.0.1",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-filerev": "^2.3.1",
-    "grunt-usemin": "^3.1.1",
+    "grunt-usemin": "^0.1.13",
     "jit-grunt": "^0.10.0",
     "lite-server": "^2.5.4",
     "time-grunt": "^2.0.0"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "firebase": "^7.14.2",
+    "firebase": "^10.12.2",
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0"
   }
