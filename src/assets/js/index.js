@@ -1,5 +1,5 @@
-(function($) {
-  $(document).ready(function() {
+(function ($) {
+  $(document).ready(function () {
     // after the page load, we charged all this functions
 
     function goToByScroll(id) {
@@ -7,14 +7,17 @@
       id = id.replace("_scroll", "");
 
       // Scroll
-      $('html, body').animate({
-        scrollTop: $("#"+id).offset().top
-      }, 1000);
-    };
+      $("html, body").animate(
+        {
+          scrollTop: $("#" + id).offset().top,
+        },
+        1000,
+      );
+    }
 
-    $("#navbarText > ul > li > a").click(function(e) {
+    $("#navbarText > ul > li > a").click(function (e) {
       // Prevent a page reload when a link is pressed
-      if ($(this).attr('href').slice(0, 1) == "#") {
+      if ($(this).attr("href").slice(0, 1) == "#") {
         // Prevent a page reload when a link is pressed
         e.preventDefault();
 
@@ -23,7 +26,7 @@
       }
     });
 
-    $("a.btn-contactame").click(function(e) {
+    $("a.btn-contactame").click(function (e) {
       // Prevent a page reload when a link is pressed
       e.preventDefault();
 
@@ -31,7 +34,7 @@
       goToByScroll($(this).attr("id"));
     });
 
-    $("a.goto-next").click(function(e) {
+    $("a.goto-next").click(function (e) {
       // Prevent a page reload when a link is pressed
       e.preventDefault();
 

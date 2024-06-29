@@ -181,11 +181,12 @@ module.exports = function (grunt) {
     },
   });
 
-  // loadNpmTask
-  // grunt.loadNpmTasks('grunt-contrib-less');
-  // grunt.loadNpmTasks('grunt-browser-sync');
-  // grunt.loadNpmTasks('grunt-contrib-watch');
-  // grunt.loadNpmTasks('grunt-contrib-imagemin');
+  // load npm tasks
+  grunt.loadNpmTasks("grunt-contrib-less");
+  grunt.loadNpmTasks("grunt-browser-sync");
+  grunt.loadNpmTasks("grunt-contrib-watch");
+  grunt.loadNpmTasks("grunt-contrib-imagemin");
+  grunt.loadNpmTasks("grunt-contrib-uglify");
 
   // registro de tareas
   grunt.registerTask("css", ["less"]);
