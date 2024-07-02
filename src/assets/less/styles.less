@@ -413,7 +413,7 @@ h3 {
 }
 
 .btn-contactame {
-  background: #272833;
+  background: #0a7146; // #272833;
   border: 2px solid #fff;
   border-radius: 2em;
   bottom: 3em;
@@ -429,10 +429,16 @@ h3 {
   color: rgba(255, 255, 255, 0.75);
   vertical-align: middle;
 
+  // comente enta sección del código para cambiar el color de fondo en la animación
   -moz-transition: color 0.2s ease-in-out;
   -webkit-transition: color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
+
+  -moz-transition: background 0.2s ease-in-out;
+  -webkit-transition: background 0.2s ease-in-out;
+  -ms-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
 }
 
 .btn-contactame:focus,
@@ -442,7 +448,9 @@ h3 {
 
 .btn-contactame:hover {
   cursor: pointer;
-  color: @redlight !important;
+  // color: @redlight !important; // comentar
+  color: rgba(255, 255, 255, 0.85) !important; // comentar
+  background: #0a8d6d; // le he cambiado el color de fondo en la transición
 }
 
 .goto-next {
