@@ -30,7 +30,11 @@ module.exports = function (grunt) {
       dev: {
         bsFiles: {
           // browser files
-          src: ["src/assets/css/*.css", "src/assets/js/*.js", "src/*.html"],
+          src: [
+            "./src/assets/css/*.css",
+            "./src/assets/js/*.js",
+            "./src/*.html",
+          ],
         },
         options: {
           watchTask: true,
@@ -110,6 +114,17 @@ module.exports = function (grunt) {
           },
         ],
       },
+      xml: {
+        files: [
+          {
+            expand: true,
+            dot: true,
+            cwd: "./src", /// directorio de trabajo actual
+            src: ["sitemap.xml"],
+            dest: "public",
+          },
+        ],
+      },
       fonts: {
         files: [
           {
@@ -157,7 +172,7 @@ module.exports = function (grunt) {
       },
     },
     usemin: {
-      html: "public/index.html",
+      html: ["public/index.html", "public/404.html"],
       options: {
         dest: "public",
         assetsDirs: ["public", "public/assets/css", "public/assets/js"],
